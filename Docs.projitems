@@ -12,12 +12,14 @@
     <None Include="$(MSBuildThisFileDirectory).github\workflows\deploy.yml" />
     <None Include="$(MSBuildThisFileDirectory)config\mkdocs.yml" />
     <None Include="$(MSBuildThisFileDirectory)LICENSE" />
+    <None Include="$(MSBuildThisFileDirectory)src\en\.nav.yml" />
     <None Include="$(MSBuildThisFileDirectory)src\en\Forge\.nav.yml" />
     <None Include="$(MSBuildThisFileDirectory)src\en\Forge\index.md" />
-    <None Include="$(MSBuildThisFileDirectory)src\en\General\.nav.yml" />
-    <None Include="$(MSBuildThisFileDirectory)src\en\General\index.md" />
     <None Include="$(MSBuildThisFileDirectory)src\en\index.md" />
     <None Include="$(MSBuildThisFileDirectory)src\en\SDK\index.md" />
+    <None Include="$(MSBuildThisFileDirectory)src\en\Settlers4\Basics\strings.md" />
+    <None Include="$(MSBuildThisFileDirectory)src\en\Settlers4\GameLogic\events.md" />
+    <None Include="$(MSBuildThisFileDirectory)src\en\Settlers4\GameLogic\index.md" />
     <None Include="$(MSBuildThisFileDirectory)src\en\Settlers4\index.md" />
     <None Include="$(MSBuildThisFileDirectory)src\en\SDK\.nav.yml" />
     <None Include="$(MSBuildThisFileDirectory)src\en\Settlers4\.nav.yml" />
