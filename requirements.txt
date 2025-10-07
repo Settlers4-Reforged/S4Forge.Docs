@@ -1,0 +1,4 @@
+﻿mkdocs
+mkdocs-material
+mkdocs-awesome-nav
+mkdocs-static-i18n

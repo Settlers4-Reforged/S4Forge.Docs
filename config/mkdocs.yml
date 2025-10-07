@@ -1,0 +1,85 @@
+﻿site_name: S4Forge Documentation
+
+docs_dir: '../src/'
+extra_css:
+  - stylesheets/extra.css
+
+theme:
+  favicon: https://github.com/Settlers4-Reforged/.github/blob/main/art/icon.webp?raw=true
+  logo: https://github.com/Settlers4-Reforged/.github/blob/main/art/icon.webp?raw=true
+  features:
+    - navigation.indexes 
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.tooltips
+    - content.code.copy
+    - content.code.annotate 
+    - announce.dismiss
+    - search.suggest
+    - search.highlight
+  name: material
+  font:
+    code: Source Code Pro
+  palette:
+    scheme: slate
+    primary: black
+    accent: deep orange
+
+extra:
+  consent:
+    title: Cookie consent
+    actions:
+      - accept
+      - reject
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+
+copyright: >
+  <a href="#__consent">Change cookie settings</a>
+
+repo_url: https://github.com/Settlers4-Reforged/S4Forge
+
+markdown_extensions:
+  - attr_list
+  - abbr
+  - md_in_html
+  - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      auto_title: true
+      linenums: true
+      use_pygments: true
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+
+
+plugins:
+  - privacy
+  - awesome-nav
+  - search
+  - i18n:
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      docs_structure: folder
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
